@@ -6,7 +6,7 @@ public class Second {
         int arr[] = {30, 40, 50, 10, 20};
         int i = binarySearch(arr, 0, arr.length, 10);
         if (i != -1) System.out.println("Index: " + i);
-        else System.out.println("Key not found");
+        else System.out.println("Not found");
     }
     
     public static int binarySearch(int arr[], int l, int r, int x) {
